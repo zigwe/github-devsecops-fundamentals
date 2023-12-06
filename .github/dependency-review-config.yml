@@ -3,7 +3,7 @@ fail-on-severity: moderate
 comment-summary-in-pr: always
 
 allow-licenses:
-  - MIT
+  # - MIT
   - GPL-3.0
   - BSD-3-Clause
 
