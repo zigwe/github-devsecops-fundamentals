@@ -43,7 +43,7 @@ jobs:
           private-key: ${{ secrets.APP_PRIVATE_KEY_ACTIONS_ASSISTANT }}
 
       - name: Draft release
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         id: draft-release
         with:
           github-token: ${{ steps.generate-app-token.outputs.token }}
@@ -81,7 +81,7 @@ jobs:
             --data-binary "@${{ env.SITE_DIR }}.zip"
 
       - name: Publish release
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         id: publish-release
         with:
           github-token: ${{ steps.generate-app-token.outputs.token }}
