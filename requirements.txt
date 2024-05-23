@@ -1,8 +1,8 @@
 # https://squidfunk.github.io/mkdocs-material/getting-started/#with-pip
-mkdocs
+mkdocs == 1.6.0
 mkdocs-glightbox
 mkdocs-material
 mkdocs-macros-plugin
 mkdocs-minify-plugin
 mkdocs-redirects
-nodeenv
+nodeenv == 1.8.0
